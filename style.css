@@ -27,7 +27,7 @@
 
 input{
     grid-column: span 4;
-    height: 70px;
+    height: 120px;
     width: 260px;
     background-color: #ecf0f3;
     box-shadow: inset -5px -5px 12px #ffffff,
@@ -38,7 +38,7 @@ input{
     font-size: 50px;
     text-align: end;
     margin: auto;
-    margin-top: 40px;
+    /* margin-top: 0px; */
     margin-bottom: 30px;
     padding: 20px;
 }
@@ -57,8 +57,13 @@ button{
 
 .equal{
     width: 115px;
+    color: #FF652F;
     border-radius: 40px;
     background-color: #ecf0f3;
     box-shadow: -5px -5px 12px #ffffff,
                 5px 5px 12px rgba(0,0,0,.16);
+}
+
+.btn-cl{
+    color: #FF652F;
 }
