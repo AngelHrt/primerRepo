@@ -13,3 +13,9 @@ function Calculate(){
         alert("Inválido")
     }
 }
+function Clear(){
+    outputScreen.value = ""
+}
+function del(){
+    outputScreen.value = outputScreen.value.slice(0,-1);
+}
